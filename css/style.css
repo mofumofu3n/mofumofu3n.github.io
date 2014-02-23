@@ -13,10 +13,10 @@ a:hover {
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
+  color: #fff;
   text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: #53bf6b;
+  border: 1px solid #53bf6b;
 }
 
 
@@ -27,7 +27,8 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+ /* background-color: #333; */
+  background-image:url("../image/dirty_old_shirt.png");
 }
 body {
   color: #fff;
